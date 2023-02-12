@@ -3,7 +3,7 @@ const port = process.env.PORT || 3000;
 
 const server = http.createServer((req, res) => {
   res.statusCode = 200;
-  const msg = 'Hello SkillSequel, From Sid, India! - This is the Manual Deployment\n'
+  const msg = 'Hello This is an Example of CICD - Pipeline\n'
   res.end(msg);
 });
 
